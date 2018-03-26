@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pranali.canteenapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name=".Start"></activity>-->
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".SignUp"></activity>
+        <activity android:name=".ReviewFood"></activity>
+        <activity android:name=".Breakfast"></activity>
+        <activity android:name=".DesertMenu"></activity>
+        <activity android:name=".RiceMenu"></activity>
+        <activity android:name=".VegetableMenu"></activity>
+        <activity android:name=".Lunch"></activity>
+        <activity android:name=".LunchMenu"></activity>
+        <activity android:name=".CanteenStats"></activity>
+        <activity android:name=".StartActivity"></activity>
+        <activity android:name=".CanteenBreakfast"></activity>
+        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".ChoiceActivity"></activity>
+        <activity android:name=".DisplayBreakfast"></activity>
+
+        <!--<activity android:name=".ChooseType"></activity>-->
+        <!--<activity android:name=".SelectType"></activity>-->
+    </application>
+
+</manifest>

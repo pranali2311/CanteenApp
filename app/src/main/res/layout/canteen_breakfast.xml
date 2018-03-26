@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/canteen"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pictlogo"
+                android:id="@+id/img1"
+                />
+
+
+            <TextView
+                android:id="@+id/vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:fontFamily="casual"
+                android:text="Votes for Breakfast:"
+                android:textColor="@color/green"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/idli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idli: 2"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/dosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:fontFamily="serif-monospace"
+            android:text="Dosa: 4"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samosa: 3"
+            android:textSize="25sp"
+            android:id="@+id/samosa"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upma: 0"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/upma"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vadapav: 5"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/vadapav"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poha: 6"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/poha"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandwich: 0"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/sandwich"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bournvita: 1"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/bournvita"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Milk: 3"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/milk"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tea: 2"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/tea"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee: 5"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/coffee"
+            android:layout_marginTop="10sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290sp"
+            android:text="LUNCH"
+            android:id="@+id/lunchButton"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

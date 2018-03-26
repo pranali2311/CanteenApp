@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dalradio">
+
+        <RadioButton
+            android:id="@+id/rice"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Plain-Rice" />
+
+        <RadioButton
+            android:id="@+id/tadka"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Dal-Tadka" />
+
+        <RadioButton
+            android:id="@+id/pulav"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Pulav" />
+
+        <RadioButton
+            android:id="@+id/curd"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Curd-rice" />
+
+        <RadioButton
+            android:id="@+id/jeera"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Jeera-Rice" />
+
+        <RadioButton
+            android:id="@+id/sambar"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Sambar-rice" />
+
+        <RadioButton
+            android:id="@+id/kadhi"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Kadhi Rice" />
+
+        <RadioButton
+            android:id="@+id/brown"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="Brown-Rice" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/finalSubmit2"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginRight="100sp"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="0.5"
+                android:text="SUBMIT"/>
+
+            <ImageButton
+                android:id="@+id/riceImageButton"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_restaurant_menu_black_24dp"
+                />
+        </LinearLayout>
+
+        <!--<ImageButton
+            android:id="@+id/riceButton"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="320sp"
+            android:clickable="true"
+            android:src="@drawable/ic_check_circle_black_24dp" />
+   -->
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

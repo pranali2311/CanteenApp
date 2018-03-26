@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    android:background="@drawable/bg"
+    >
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon Mar 18"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/cherry"
+            android:id="@+id/day1"
+            android:textSize="50sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/orange"
+            android:text="Vegetables"
+            android:textSize="50sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="veg1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:textSize="25sp"
+            android:id="@+id/veg1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="veg2"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:textSize="25sp"
+            android:id="@+id/veg2"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rice"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/orange"
+
+            android:textSize="50sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rice"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+
+            android:textSize="25sp"
+            android:id="@+id/rice"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desert"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/orange"
+
+            android:textSize="50sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rice"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:textSize="25sp"
+            android:id="@+id/desert"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

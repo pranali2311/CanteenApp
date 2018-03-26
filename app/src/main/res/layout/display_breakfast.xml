@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_submitbreak"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR ORDER"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/orderbreak"
+        />
+
+
+    <TextView
+        android:layout_marginTop="60sp"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderbreak"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/idliname"
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idliname"
+        android:id="@+id/dosa"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dosa"
+        android:id="@+id/samosa"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/samosa"
+        android:id="@+id/upma"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upma"
+        android:id="@+id/vadapav"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vadapav"
+        android:id="@+id/poha"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poha"
+        android:id="@+id/sandwitch"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sandwitch"
+        android:id="@+id/bournvita"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bournvita"
+        android:id="@+id/milk"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/milk"
+        android:id="@+id/tea"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tea"
+        android:id="@+id/coffee"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180sp"
+        android:layout_below="@+id/coffee"
+        android:id="@+id/OK"
+        android:textStyle="bold"
+        android:text="OK"
+
+
+        />
+
+
+
+</RelativeLayout>

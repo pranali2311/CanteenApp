@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startbackground">
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:id="@+id/signup"
+        android:background="#FFD700"/>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/login"
+        android:layout_marginTop="20dp"
+        android:background="@color/lightGreen"
+        />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text=" CANTEEN LOGIN"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/canteenLogin"
+        android:layout_marginTop="20dp"
+        android:background="#FF69B4"
+        />
+
+</LinearLayout>
